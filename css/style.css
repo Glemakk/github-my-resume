@@ -1,225 +1,260 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+p {
+  margin: 0;
+}
+
+ol {
+  list-style: none;
 }
 
 body {
-    background: #f5f7fa;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    font-family: Montserrat;
+  background: #f5f7fa;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: Montserrat;
 }
 
 .wrapper {
-    background: #ffffff;
-    display: flex;
-    max-width: 1280px;
-    margin: 0 auto;
-    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+  background: #ffffff;
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 }
 
+.main-container {
+  width: 370px;
+}
 .sidebar {
-    background: #1e2939;
-    width: 370px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+  background: #1e2939;
+  width: 370px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .my-photo {
-    width: 370px;
+  width: 370px;
 }
 
 .about-me-container {
-    padding-top: 110px;
-    padding-bottom: 110px;
-    padding-left: 90px;
-    padding-right: 90px;
+  padding-top: 110px;
+  padding-bottom: 110px;
+  padding-left: 90px;
+  padding-right: 90px;
 }
 
 .contacts-container {
-    margin-top: 60px;
-    margin-left: 40px;
-    margin-right: 40px;  
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .contacts-title {
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 24px;
-    color: #ffffff;
-    margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 20px;
 }
 
 .contacts-link {
-    color: #7d838d;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
+  color: #7d838d;
+  /* color: #d9dbdd; */
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .contacts-title-type {
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 24px;
-    color: #ffffff;
-    margin-right: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ffffff;
+  margin-right: 10px;
 }
 
 .tech-skills-container {
-    margin-top: 54px;
-    margin-left: 40px;
-    margin-right: 40px; 
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .tech-skills-title {
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 24px;
-    color: #ffffff;
-    margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 20px;
 }
 
 .tech-skills-item {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #ff6b08;
-    margin-left: 15px;
-    margin-right: 40px; 
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ff6b08;
+  margin-left: 15px;
+  margin-right: 40px;
 }
 
 .tech-skills-text {
-    color: #d9dbdd;
+  color: #d9dbdd;
 }
 
 .soft-skills-container {
-    margin-top: 54px;
-    margin-left: 40px;
-    margin-right: 40px;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .soft-skils-title {
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 24px;
-    color: #ffffff;
-    margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 20px;
 }
 
 .soft-skills-item {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #ff6b08;
-    margin-left: 15px;
-    margin-right: 40px; 
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ff6b08;
+  margin-left: 15px;
+  margin-right: 40px;
 }
 
 .soft-skills-text {
-    color: #d9dbdd;
+  color: #d9dbdd;
 }
 
 .profession {
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 24px;
-    margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 0px;
 }
 
 .name {
-    font-size: 45px;
-    font-weight: 700;
-    line-height: 89px;
-    margin-bottom: 0px;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 89px;
+  margin-bottom: 0px;
 }
 
 .description {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #8e8e8e;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #888888;
 }
 
 .info-container {
-    margin-bottom: 65px;
+  margin-bottom: 65px;
 }
 
 .about-me-title {
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 24px;
-    margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 10px;
 }
 
 .projects-link {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #b7b7b7;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #888888;
+}
+
+.project-link-path {
+  color: #ff6b08;
+}
+
+.project-desc-list {
+  list-style: disc;
 }
 
 .tech-name {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #b7b7b7;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #b7b7b7;
 }
 
 .dots {
-    color: #b7b7b7;  
-    font-weight: 100;
+  color: #b7b7b7;
+  font-weight: 100;
 }
 
 .project-item {
-    font-weight: 700;
-    margin-left: 17px;
+  font-weight: 700;
+  margin-left: 17px;
+  margin-bottom: 25px;
 }
 
 .projects-container {
-    margin-bottom: 55px;
+  margin-bottom: 55px;
 }
 
 .profession-title {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px; 
-    margin-top: 8px;
-    margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 8px;
+  margin-bottom: 15px;
 }
 
 .profession-company {
-    color: #ff6b08;
+  color: #ff6b08;
 }
 
 .profession-time {
-    color: #a8a8a8;
-    font-family: Montserrat;
-    font-size: 12px;
-    font-weight: 400;
+  display: block;
+  margin-top: 5px;
+  color: #a8a8a8;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
 }
 
 .profession-devider {
-    color: black;
+  color: black;
 }
 
 .profession-duties {
-    margin-top: 14px;
-    margin-bottom: 30px;
+  margin-top: 14px;
+  margin-left: 17px;
+  /* margin-bottom: 30px; */
 }
 
 .profession-duties-item {
-    color: #595959;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 400;
+  color: #595959;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 5px;
 }
 
 .faculty {
-    font-size: 14px;
-    font-weight: 700;
-    margin-top: 15px;
-    margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.description-container {
+  margin-top: 30px;
+}
+
+.container {
+  margin-bottom: 40px;
 }
