@@ -168,11 +168,23 @@ body {
   margin-bottom: 30px;
 }
 
+.project-section {
+  margin-left: 25px;
+}
+
+.job-position-descr {
+  margin-left: 15px;
+}
+
 .projects-link {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
   color: #2a2a2a;
+}
+
+.smaller-font {
+  font-size: 14px;
 }
 
 .project-link-path {
@@ -210,7 +222,7 @@ body {
   font-weight: 700;
   line-height: 24px;
   margin-top: 8px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .profession-company {
